@@ -1,3 +1,5 @@
 Averiguar la ip:
      ip -4 address|grep inet
 
+Sobre el gpio
+     https://pypi.org/project/pyA20/
