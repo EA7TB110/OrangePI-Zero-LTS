@@ -1,0 +1,3 @@
+Averiguar la ip:
+     ip -4 address|grep inet
+
