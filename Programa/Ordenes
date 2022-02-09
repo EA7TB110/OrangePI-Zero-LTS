@@ -3,3 +3,19 @@ Averiguar la ip:
 
 Sobre el gpio
      https://pypi.org/project/pyA20/
+
+Metodos GPIO
+     Estan disponibles los siguientes
+         init() - Inicializa los GPIO, debe hacerse lo primero.
+         getcfg() - Lee la configuracin del gpio.
+         setcfg() - Escribe la configuracion del gpio.
+         input() - Retorna el valor del gpio.
+         output() - pone un valor en el gipio
+         pullup() - pone pull-up/pull-down.
+     Estan disponibles las siguientes constantes:
+          HIGH - 1
+          LOW - 0
+          INPUT - 0
+          OUPTUT - 1
+          PULLUP - 1
+          PULLDOWN - 2
